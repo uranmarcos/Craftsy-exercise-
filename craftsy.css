@@ -1,0 +1,147 @@
+body{
+  background-image: url("img/bg-2.png");
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+nav{
+  overflow: hidden;
+  background-color: #FF0000;
+  padding:5px;
+}
+.nav-left{
+  padding-left: 5px;
+  float: left;
+  width: 790px;
+  height: 50px;
+  background-image: url("img/logo.png");
+  background-position: left;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+  ul{
+    overflow: hidden;
+    margin-left: 100px;
+    list-style-type: none;
+    height: 50px;
+    margin-top: 0px;
+  }
+  ul li{
+    float:left;
+    color: white;
+    text-transform: uppercase;
+    line-height: 50px;
+    height: 50px;
+  }
+ul li a{
+  margin-right: 15px;
+  width: auto;
+  display: block;
+}
+
+  }
+.nav-right{
+  float:left;
+  width: 340;
+  overflow: hidden;
+}
+
+.botones{
+  width: auto;
+  color: white;
+  float:right;
+  margin: 5px;
+  text-transform: uppercase;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bolder;
+}
+
+
+
+main{
+  overflow: hidden;
+}
+section{
+  width: 800px;
+  overflow: hidden;
+  background-color: white;
+  margin-top: 20px;
+  float:left;
+}
+article{
+  width: 380px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  float: left;
+  height: 400px;
+}
+img{
+  width: 380px;
+}
+h2, p{
+  font-family: verdana;
+}
+.button{
+  background-color: #FF0000;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: verdana;
+  font-weight: bolder;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+a{
+  list-style-type: none;
+  text-decoration: none;
+  color:white;
+}
+aside{
+  float:left;
+  margin-left:18px;
+  width: 320px;
+  margin-top: 20px;
+  height: 800px;
+}
+.titulo{
+  border: solid 1px lightblue;
+  background-color: white;
+  margin-top: 0px;
+}
+.tutorial{
+  overflow: hidden;
+  border: solid 1px lightblue;
+  background-color: white;
+}
+.nombretutorial{
+  color:black;
+}
+.imgtutorial{
+  float:left;
+  width: 40%;
+}
+h3{
+  float: left;
+  width: 55%;
+  padding: 5px;
+}
+
+.pub{
+  margin-top: 50px;
+  width: 320px;
+  border: solid 1px lightblue;
+}
+
+.publicidad{
+  width:320px;
+  border: solid 1px lightblue;
+  margin-top: 20px;
+}
+.imagenpublicidad{
+  width: 100%;
+}
