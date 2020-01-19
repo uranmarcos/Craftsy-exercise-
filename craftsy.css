@@ -16,14 +16,23 @@ nav{
   float: left;
   width: 790px;
   height: 50px;
-  background-image: url("img/logo.png");
-  background-position: left;
-  background-size: auto;
-  background-repeat: no-repeat;
+  overflow: hidden;
 }
+.logo{
+  margin-top: 5px;
+  width: 70px;
+  height: 50px;
+  float: left;
+}
+.imglogo{
+  width: 100px;
+  height: 39px;
+}
+
   ul{
+    float:left;
     overflow: hidden;
-    margin-left: 100px;
+    margin-left: 50px;
     list-style-type: none;
     height: 50px;
     margin-top: 0px;
