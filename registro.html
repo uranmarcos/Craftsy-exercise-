@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Craftsy Registro</title>
+    <meta charset="utf-8">
+    <link href="registro.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="nav-left">
+            <ul>
+              <li><a href="#">smartphones</a></li>
+              <li><a href="#">tablets</a></li>
+              <li><a href="#">computadoras</a></li>
+            </ul>
+          </div>
+          <div class="nav-right">
+            <div class="botones">
+              <a href="#">login</a>
+            </div>
+            <div class="botones" >
+              <a href="#">registro</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <h2>registrate</h2>
+        <form>
+          <p>
+            <label class="bolder" for="name">Nombre</label>
+            <br>
+            <input class="ancho" type="text" name="name" required value="">
+            <br>
+          </p>
+          <p>
+            <label class="bolder" for="email">Email</label>
+            <br>
+            <input class="ancho" type="email" name="email" required value="">
+            <br>
+          </p>
+          <p>
+            <label class="bolder" for="password">Contraseña</label>
+            <br>
+            <input class="ancho" type="password" name="password" required value="">
+            <br>
+          </p>
+          <p>
+            <label class="bolder" for="pais">País de nacimiento</label>
+            <br>
+            <select class="" name="pais" required id="pais">
+              <option value="ar">Argentina</option>
+              <option value="bo">Bolivia</option>
+              <option value="br">Brasil</option>
+              <option value="ch">Chile</option>
+              <option value="ec">Ecuador</option>
+              <option value="pa">Paraguay</option>
+              <option value="pe">Perú</option>
+              <option value="ur">Uruguay</option>
+            </select>
+            <br>
+          </p>
+          <p>
+            <label class="bolder" for="genero">Género</label>
+            <br>
+            <input type="radio" name="genero" value="m">Masculino
+            <input type="radio" name="genero" value="f">Femenino
+            <input type="radio" name="genero" value="p">Prefiero no decirlo
+            <br>
+          </p>
+          <p>
+            <label class="bolder" for="hobbies">Hobbies</label>
+            <br>
+            <input type="radio" name="hobbies" value="gu">Guitarra
+            <input type="radio" name="hobbies" value="fu">Fútbol
+            <input type="radio" name="hobbies" value="te">Tenis
+            <input type="radio" name="hobbies" value="pr">Programación
+            <br>
+          </p>
+          <p>
+            <label class="bolder" for="com">Dejanos tus comentarios</label>
+            <br>
+            <textarea name="com" rows="8" cols="80"></textarea>
+            <br>
+          </p>
+          <p>
+            <label for="condiciones"></label>
+            <input type="checkbox" name="condiciones" value="">Acepto los términos y condiciones
+            <br>
+          </p>
+          <p class="botones">
+            <button  type="submit" name="button">
+              <a href="#">Registrarme</a>
+            </button>
+            <button  type="submit" name="button">
+              <a href="#">Cancelar</a>
+            </button>
+          </p>
+
+
+        </form>
+      </main>
+  </body>
+</html>
